@@ -1,4 +1,4 @@
-add_library(str lower.cpp upper.cpp strip.cpp)
+add_library(str lower.cpp upper.cpp strip.cpp title.cpp)
 
 target_link_libraries(str PUBLIC project_options project_warnings)
 
