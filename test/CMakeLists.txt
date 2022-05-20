@@ -26,7 +26,7 @@ target_link_libraries(catch_main PUBLIC Catch2::Catch2)
 target_link_libraries(catch_main PRIVATE myproject::project_options)
 
 
-add_executable(tests lower_tests.cpp upper_tests.cpp join_tests.cpp strip_tests.cpp title_tests.cpp)
+add_executable(tests lower_tests.cpp upper_tests.cpp join_tests.cpp strip_tests.cpp title_tests.cpp split_tests.cpp)
 target_link_libraries(tests PRIVATE str myproject::project_warnings myproject::project_options catch_main)
 
 # automatically discover tests that are defined in catch based test files you can modify the unittests. Set TEST_PREFIX
